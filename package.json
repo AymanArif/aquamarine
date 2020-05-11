@@ -20,7 +20,7 @@
         "joi": "^13.0.2",
         "jsonwebtoken": "^8.2.0",
         "mocha": "^7.1.2",
-        "mongoose": "4.13.4",
+        "mongoose": "5.7.5",
         "nodemon": "^2.0.3"
     }
 }
