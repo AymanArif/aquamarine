@@ -1,0 +1,31 @@
+{
+    "server": {
+        "auth": {
+            "saltFactor": 10,
+            "secretKey": "ChangeThisSecret"
+        },
+        "connection": {
+            "port": 3001,
+            "routes": {
+                "cors": {
+                    "origin": [
+                        "*"
+                    ],
+                    "headers": [
+                        "Access-Control-Allow-Origin",
+                        "Access-Control-Allow-Headers",
+                        "Origin",
+                        "X-Requested-With",
+                        "Content-Type",
+                        "Authorization"
+                    ],
+                    "credentials": true
+                }
+            },
+            "host": "localhost"
+        }
+    },
+    "mongodb": {
+        "uri": "mongodb://localhost/aquamarine"
+    }
+}
